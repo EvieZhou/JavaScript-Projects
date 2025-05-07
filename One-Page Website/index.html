@@ -1,1 +1,22 @@
+<div class="gallery">
+  <img src="images/thumbnail1.jpg" alt="Image 1" onclick="openModal();currentSlide(1)">
+  <img src="images/thumbnail2.jpg" alt="Image 2" onclick="openModal();currentSlide(2)">
+  <!-- Add more images as needed -->
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <div class="mySlides">
+      <img src="images/large1.jpg" alt="Image 1">
+    </div>
+    <div class="mySlides">
+      <img src="images/large2.jpg" alt="Image 2">
+    </div>
+    <!-- Add more slides as needed -->
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
 
